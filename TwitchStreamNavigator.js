@@ -11,8 +11,8 @@
 //Globals
 const ls = localStorage;
 const urlDropStreams = "https://www.twitch.tv/directory/game/SMITE?sort=RECENT&tl=c2542d6d-cd10-4532-919b-3d19f30a768b";//Place the URL stream to the drops stream here
-const [timeMax, timeMin] = [5,2];
-const gameName = "SMITE";
+const [timeMax, timeMin] = [5,2];// Use this to change the timer on input
+const gameName = "SMITE";// Use this to change the game name to search for
 
 //UserInput Object
 class UserInput {
@@ -79,7 +79,7 @@ function WatchStream() {
 
     const mutationGameNameCallback = (mutations) => {
         for (let mutation of mutations) {
-            if (mutation.oldValue === gameName) {
+            if (mutation.oldValue === gameName.toLowerCase()) {
                 console.log("Game Changed");
                 ls.setItem("goal", "newstream");
                 new UserInput(timeMax,timeMin).UserPageSwitch(urlDropStreams);
