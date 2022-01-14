@@ -3,6 +3,7 @@
 // @version      1
 // @author       Liandro Feliz
 // @match        https://www.twitch.tv/*
+// @updateURL    https://github.com/liandro123/TwitchScripts/blob/main/TwitchRewardClaimer.js
 // ==/UserScript==
 //UserInput Object
 const UserInput = {
