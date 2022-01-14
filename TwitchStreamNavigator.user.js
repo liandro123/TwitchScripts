@@ -7,6 +7,7 @@
 // @updateURL    https://github.com/liandro123/TwitchScripts/blob/main/TwitchStreamNavigator.js
 // ==/UserScript==
 //Reminders: Create button to change active stream page
+// Turn off navigator if all prizes are claimed
 
 //Globals
 const ls = localStorage;
