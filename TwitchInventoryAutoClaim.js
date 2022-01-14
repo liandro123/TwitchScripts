@@ -1,5 +1,11 @@
+// ==UserScript==
+// @name         Twitch Drop AutoClaimer
+// @version      0.1
+// @description  Auto-claim items on 'Drops' page of Twitch.tv
+// @author       Liandro Feliz
+// @match        https://www.twitch.tv/drops/inventory
+// ==/UserScript==
 // Purpose: Auto-claim items on 'Drops' page of Twitch.tv
-
 //Constants
 const TargetQuery = "[data-test-selector=DropsCampaignInProgressRewardPresentation-claim-button]";
 //UserInput Object

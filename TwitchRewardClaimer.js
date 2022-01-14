@@ -1,3 +1,9 @@
+// ==UserScript==
+// @name         Twitch Channel Autoclaim
+// @version      1
+// @author       Liandro Feliz
+// @match        https://www.twitch.tv/*
+// ==/UserScript==
 //UserInput Object
 const UserInput = {
     UserClick: (el) => {
