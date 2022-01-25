@@ -5,6 +5,7 @@
 // @match        https://www.twitch.tv/*
 // @exclude      https://www.twitch.tv/drops/inventory
 // @updateURL    https://github.com/liandro123/TwitchScripts/blob/main/TwitchStreamNavigator.js
+// @run-at       document-end
 // ==/UserScript==
 //Reminders: Create button to change active stream page
 // Turn off navigator if all prizes are claimed

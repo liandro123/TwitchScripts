@@ -5,6 +5,7 @@
 // @author       Liandro Feliz
 // @match        https://www.twitch.tv/drops/inventory
 // @updateURL    https://github.com/liandro123/TwitchScripts/blob/main/TwitchInventoryAutoClaim.js
+// @run-at       document-end
 // ==/UserScript==
 // Purpose: Auto-claim items on 'Drops' page of Twitch.tv
 //Constants

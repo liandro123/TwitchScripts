@@ -4,6 +4,7 @@
 // @author       Liandro Feliz
 // @match        https://www.twitch.tv/*
 // @updateURL    https://github.com/liandro123/TwitchScripts/blob/main/TwitchRewardClaimer.js
+// @run-at       document-end
 // ==/UserScript==
 //UserInput Object
 const UserInput = {
