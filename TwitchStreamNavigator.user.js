@@ -61,7 +61,7 @@ function NewStream() {
         let parent = document.querySelector("[data-target='directory-first-item']");
         let el = parent.querySelector("a");
         ls.setItem("goal", "viewstream");
-        new UserInput(timeMax,timeMin).UserClick(el);
+        new UserInput(timeMax,timeMin).UserPageSwitch(el.href);
     });
 }
 
