@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Twitch Stream Navigator
-// @version      2.0
+// @version      2.1
 // @description  Automatically navigate to new drop streams whenever current stream is over.
 // @match        https://www.twitch.tv/*
 // @exclude      https://www.twitch.tv/drops/inventory
@@ -81,11 +81,9 @@ function WatchStream() {
 
     const mutationGameNameCallback = (mutations) => {
         for (let mutation of mutations) {
-            if (mutation.oldValue === gameName.toLowerCase()) {
                 console.log("Game Changed");
                 ls.setItem("goal", "newstream");
                 new UserInput(timeMax,timeMin).UserPageSwitch(urlDropStreams);
-            }
         }
     };
     //Wait for Element and initate
