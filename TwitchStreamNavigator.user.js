@@ -4,7 +4,7 @@
 // @description  Automatically navigate to new drop streams whenever current stream is over.
 // @match        https://www.twitch.tv/*
 // @exclude      https://www.twitch.tv/drops/inventory
-// @updateURL    https://github.com/liandro123/TwitchScripts/blob/main/TwitchStreamNavigator.js
+// @updateURL    https://github.com/liandro123/TwitchScripts/blob/main/TwitchStreamNavigator.user.js
 // @run-at       document-end
 // ==/UserScript==
 //Reminders: Create button to change active stream page
