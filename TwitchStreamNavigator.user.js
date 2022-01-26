@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Twitch Stream Navigator
-// @version      1.1
+// @version      1.2
 // @description  Automatically navigate to new drop streams whenever current stream is over.
 // @match        https://www.twitch.tv/*
 // @exclude      https://www.twitch.tv/drops/inventory
