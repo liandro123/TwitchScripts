@@ -27,6 +27,9 @@ class UserInput {
             console.log("changing site");
             window.location.assign(url);
         }, this.timeMS*1000);
+      setTimeout(() => {
+            window.location.reload();
+        }, this.timeMS*1000 + 2*1000);
     }
     UserClick (el) {
         console.log("clicking");
@@ -71,7 +74,7 @@ function WatchStream() {
     const mutationOptionsGameName = {subtree: true , characterDataOldValue:true};
     const mutationCallback = (mutations) => {
     for (let mutation of mutations) {
-        if (mutation.type === "attributes" && mutation.oldValue === "Channel is Live") {
+        if (mutation.type === "attributes") {
             console.log("Changed");
             ls.setItem("goal", "newstream");
             new UserInput(timeMax,timeMin).UserPageSwitch(urlDropStreams);
